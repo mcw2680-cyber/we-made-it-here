@@ -1,1 +1,124 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#F6F1E9"><title>WE MADE IT HERE.</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"></head><body><main class="app-shell"><header class="topbar"><div><div class="eyebrow eyebrow-brand"><span class="eyebrow-made">ACTUALLY MADE HERE</span><span class="eyebrow-dot"> • </span><span class="eyebrow-strong">USA STRONG</span></div><h1>WE MADE IT HERE.</h1></div><button aria-label="Menu" class="icon-btn" type="button">☰</button></header><section class="hero" id="discover"><div class="hero-copy"><span class="pill">Yep. We checked.</span><h2>Discover products actually made in America.</h2><p>Discover verified products, transparent production details, and the brands that are actually making it here.</p><a class="primary-btn" href="#shop">Explore the edit</a></div><div class="hero-card"><div class="hero-card-inner"><div class="small-label">FOUNDING BRAND 001</div><div class="brand-wordmark">phural</div><p>Made to order in Orange County, California.</p></div></div></section><section class="search-section" id="shop"><input aria-label="Search products" id="searchInput" placeholder="Search products, categories, or details…" type="search"><div aria-label="Product categories" class="chips" id="categoryFilters"></div></section><section class="section"><div class="section-heading"><div><span class="eyebrow">FEATURED BRAND</span><h3>PHURAL</h3></div><span class="verified-badge">✓ CUT &amp; SEWN IN USA</span></div><div class="brand-info"><div><strong>Orange County, California</strong><p>Made to order • imported premium fabric • final production in Orange County, CA.</p></div><button class="secondary-btn" id="brandDetailsBtn" type="button">Why it qualifies</button></div><div class="product-grid" id="productGrid"></div></section><section class="section" id="verified"><div class="section-heading"><div><span class="eyebrow">TRANSPARENCY</span><h3>What “made here” means.</h3></div></div><div class="verify-grid"><div class="verify-card"><strong>Designed</strong><span>Orange County, CA</span></div><div class="verify-card"><strong>Cut &amp; Sewn</strong><span>Orange County, CA</span></div><div class="verify-card"><strong>Fabric</strong><span>Imported</span></div><div class="verify-card"><strong>Production</strong><span>Made to order</span></div></div><p class="microcopy">Advertising never buys verification. Brands must meet the platform’s stated production standard.</p></section><section class="section"><div class="callout"><div><span class="eyebrow">THE FOUNDING 50</span><h3>50 states. 50 American makers. One founding collection.</h3><p>We’re building a founding collection with the goal of representing one verified maker from every state. Selected Founding 50 brands receive complimentary founding membership. No commissions. No affiliate fees. Verification is never for sale.</p></div><a class="primary-btn" href="founding-50.html">Apply for the Founding 50</a></div></section></main><nav aria-label="Main navigation" class="bottom-nav"><a href="#discover">Discover</a><a href="#verified">Verified</a><a href="#shop">Phural</a></nav><dialog id="brandDialog"><button aria-label="Close" class="dialog-close" id="closeBrand" type="button">×</button><span class="eyebrow">FOUNDING BRAND 001</span><h3>PHURAL</h3><p><strong>Cut &amp; sewn in Orange County, California.</strong></p><p>Phural is made to order, with final cut-and-sew production completed in Orange County, CA. Premium fabric and select components may be imported.</p><div class="option-row"><span class="option">Designed: Orange County, CA</span><span class="option">Cut &amp; Sewn: Orange County, CA</span><span class="option">Production: Made to order</span><span class="option">Fabric: Imported</span></div><p class="microcopy">Verification is based on the platform’s stated production standard. Advertising never buys verification.</p></dialog><script src="config.js"></script><script src="app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#F6F1E9">
+<title>WE MADE IT HERE.</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="app-shell">
+<header class="topbar">
+<div>
+<div class="eyebrow eyebrow-brand">
+<span class="eyebrow-made">ACTUALLY MADE HERE</span>
+<span class="eyebrow-dot"> • </span>
+<span class="eyebrow-strong">USA STRONG</span>
+</div>
+<h1>WE MADE IT HERE.</h1>
+</div>
+<button aria-label="Menu" class="icon-btn" type="button">☰</button>
+</header>
+<section class="hero" id="discover">
+<div class="hero-copy">
+<span class="pill">Yep. We checked.</span>
+<h2>Discover products actually made in the USA.</h2>
+<p>Discover verified products, transparent production details, and the brands that are actually making it here.</p>
+<a class="primary-btn" href="#shop">Explore the edit</a>
+</div>
+</section>
+<section class="founding-map" aria-label="The Founding 50">
+<img src="founding-50-approved.png" alt="The Founding 50 map: 50 states, 50 American makers, 1 founding collection.">
+<a class="phural-map-link" href="#phural" aria-label="View Phural, California's founding brand" title="View Phural">
+</a>
+</section>
+<section class="search-section" id="shop">
+<input aria-label="Search products" id="searchInput" placeholder="Search products, categories, or details…" type="search">
+<div aria-label="Product categories" class="chips" id="categoryFilters">
+</div>
+</section>
+<section class="section" id="phural">
+<div class="section-heading">
+<div>
+<span class="eyebrow">FEATURED BRAND</span>
+<h3>PHURAL</h3>
+</div>
+<span class="verified-badge">✓ CUT &amp; SEWN IN USA</span>
+</div>
+<div class="brand-info">
+<div>
+<strong>Orange County, California</strong>
+<p>Made to order • imported premium fabric • final production in Orange County, CA.</p>
+</div>
+<button class="secondary-btn" id="brandDetailsBtn" type="button">Why it qualifies</button>
+</div>
+<div class="product-grid" id="productGrid">
+</div>
+</section>
+<section class="section" id="verified">
+<div class="section-heading">
+<div>
+<span class="eyebrow">TRANSPARENCY</span>
+<h3>What “made here” means.</h3>
+</div>
+</div>
+<div class="verify-grid">
+<div class="verify-card">
+<strong>Designed</strong>
+<span>Orange County, CA</span>
+</div>
+<div class="verify-card">
+<strong>Cut &amp; Sewn</strong>
+<span>Orange County, CA</span>
+</div>
+<div class="verify-card">
+<strong>Fabric</strong>
+<span>Imported</span>
+</div>
+<div class="verify-card">
+<strong>Production</strong>
+<span>Made to order</span>
+</div>
+</div>
+<p class="microcopy">Advertising never buys verification. Brands must meet the platform’s stated production standard.</p>
+</section>
+<section class="section">
+<div class="callout">
+<div>
+<span class="eyebrow">THE FOUNDING 50</span>
+<h3>50 states. 50 American makers. One founding collection.</h3>
+<p>We’re building a founding collection with the goal of representing one verified maker from every state. Selected Founding 50 brands receive complimentary founding membership. No commissions. No affiliate fees. Verification is never for sale.</p>
+</div>
+<a class="primary-btn" href="founding-50.html">Apply for the Founding 50</a>
+</div>
+</section>
+</main>
+<nav aria-label="Main navigation" class="bottom-nav">
+<a href="#discover">Discover</a>
+<a href="#verified">Verified</a>
+<a href="#shop">Phural</a>
+</nav>
+<dialog id="brandDialog">
+<button aria-label="Close" class="dialog-close" id="closeBrand" type="button">×</button>
+<span class="eyebrow">FOUNDING BRAND 001</span>
+<h3>PHURAL</h3>
+<p>
+<strong>Cut &amp; sewn in Orange County, California.</strong>
+</p>
+<p>Phural is made to order, with final cut-and-sew production completed in Orange County, CA. Premium fabric and select components may be imported.</p>
+<div class="option-row">
+<span class="option">Designed: Orange County, CA</span>
+<span class="option">Cut &amp; Sewn: Orange County, CA</span>
+<span class="option">Production: Made to order</span>
+<span class="option">Fabric: Imported</span>
+</div>
+<p class="microcopy">Verification is based on the platform’s stated production standard. Advertising never buys verification.</p>
+</dialog>
+<script src="config.js">
+</script>
+<script src="app.js">
+</script>
+</body>
+</html>

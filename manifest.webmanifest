@@ -1,9 +1,9 @@
 {
-  "name": "WE MADE IT HERE.",
-  "short_name": "WE MADE IT HERE",
+  "name": "She Actually Made It Here",
+  "short_name": "Made It Here",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#F6F1E9",
-  "theme_color": "#F6F1E9",
+  "background_color": "#f4eee7",
+  "theme_color": "#f4eee7",
   "icons": []
 }
