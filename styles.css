@@ -8,6 +8,35 @@
   --soft:#E7DED3;
   --accent:#861F36;
 }
+
+/* Membership choices share the existing site's palette and typography. */
+.membership {border-top:2px solid var(--accent);scroll-margin-top:24px}
+.membership>.eyebrow {color:var(--accent)}
+.membership>h3 {margin-top:10px;color:#24334A}
+.membership-intro {max-width:740px;font-size:18px;line-height:1.6}
+.membership-benefits {max-width:740px;line-height:1.6;color:#514943}
+.membership-plans {display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:26px}
+.membership-plan {padding:28px;background:var(--paper);border:1px solid var(--line)}
+.membership-plan-annual {border:2px solid #24334A;padding:27px}
+.membership-offer,.membership-plan-label {display:inline-block;font-size:11px;letter-spacing:1.2px;font-weight:700;padding:7px 10px}
+.membership-offer {background:var(--accent);color:var(--paper)}
+.membership-plan-label {padding-left:0;color:#514943}
+.membership-plan h4 {font-family:Georgia,serif;font-weight:500;font-size:25px;margin:20px 0 14px;color:#24334A}
+.membership-price {font-family:Georgia,serif;font-size:52px;margin:0 0 16px;line-height:1.1}
+.membership-price span {font-family:Arial,sans-serif;font-size:16px;color:#514943}
+.membership-plan p {line-height:1.5}
+.membership-plan .membership-price {line-height:1.1}
+.membership-savings {font-size:13px;color:#514943;min-height:40px}
+.membership-join {width:100%;font-size:15px;min-height:48px}
+.membership-join:focus-visible {outline:3px solid var(--accent);outline-offset:4px}
+.membership-join:disabled {cursor:not-allowed;opacity:.6}
+.membership-status {margin-top:16px}
+@media(max-width:650px){
+  .membership-plans {grid-template-columns:1fr;gap:16px}
+  .membership-plan {padding:24px}
+  .membership-plan-annual {padding:23px}
+  .membership-savings {min-height:0}
+}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{

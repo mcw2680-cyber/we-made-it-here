@@ -84,15 +84,31 @@
 </div>
 <p class="microcopy">Advertising never buys verification. Brands must meet the platform’s stated production standard.</p>
 </section>
-<section class="section">
-<div class="callout">
-<div>
-<span class="eyebrow">THE FOUNDING 50</span>
-<h3>50 states. 50 American makers. One founding collection.</h3>
-<p>We’re building a founding collection with the goal of representing one verified maker from every state. Selected Founding 50 brands receive complimentary founding membership. No commissions. No affiliate fees. Verification is never for sale.</p>
+<section class="section membership" id="membership" aria-labelledby="membership-heading">
+<span class="eyebrow">JOIN THE DIRECTORY</span>
+<h3 id="membership-heading">Made here. Found here.</h3>
+<p class="membership-intro">Be one of the first businesses to join We Made It Here USA. Help shoppers discover your American-made products and the story behind your brand.</p>
+<p class="membership-benefits">Both plans include a verified brand profile and products featured in directory search. Brands must meet our production standard.</p>
+<div class="membership-plans">
+<article class="membership-plan membership-plan-annual" aria-labelledby="annual-heading">
+<span class="membership-offer">TWO MONTHS FREE</span>
+<h4 id="annual-heading">Annual membership</h4>
+<p class="membership-price">$190 <span>/ year</span></p>
+<p>$190 billed upfront every year until canceled. Each payment covers 12 months.</p>
+<p class="membership-savings">Save $38 compared with paying monthly.</p>
+<button class="primary-btn membership-join" data-membership-plan="annual" type="button" disabled aria-describedby="membership-status">Join for $190 a year</button>
+</article>
+<article class="membership-plan" aria-labelledby="monthly-heading">
+<span class="membership-plan-label">PAY MONTHLY</span>
+<h4 id="monthly-heading">Monthly membership</h4>
+<p class="membership-price">$19 <span>/ month</span></p>
+<p>Billed monthly. Cancel anytime.</p>
+<p class="membership-savings">Choose the payment schedule that suits you.</p>
+<button class="secondary-btn membership-join" data-membership-plan="monthly" type="button" disabled aria-describedby="membership-status">Join for $19 a month</button>
+</article>
 </div>
-<a class="primary-btn" href="founding-50.html">Apply for the Founding 50</a>
-</div>
+<p class="microcopy membership-status" id="membership-status" role="status">Membership signup is not available yet. Please check back soon.</p>
+<noscript><p class="microcopy">Please enable JavaScript to choose a membership.</p></noscript>
 </section>
 </main>
 <nav aria-label="Main navigation" class="bottom-nav">
@@ -120,5 +136,7 @@
 </script>
 <script src="app.js">
 </script>
+<script src="membership-config.js"></script>
+<script src="membership.js"></script>
 </body>
 </html>
